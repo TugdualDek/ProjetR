@@ -52,15 +52,50 @@ h1 {
 
 ---
 
+# Table des matières
+
+- [Introduction](#introduction)
+- [Analyse préliminaire : statistiques descriptives](#analyse-préliminaire--statistiques-descriptives)
+- [Principal Component Analysis (PCA)](#principal-component-analysis-pca)
+- [Regression Linéaire](#regression-linéaire)
+- [Conclusion](#conclusion)
+- [Références](#références)
+
+---
+
+# Introduction
+
+---
+
+# Analyse préliminaire : statistiques descriptives
+
+---
+
 # Présentation des variables
 
-| Nom        | num_reactions | Num_comments | Num_shares |
+| Nom        | num_reactions | num_comments | num_shares |
 | ---------- | :-----------: | :----------: | :--------: |
 | Moyenne    |     230.1     |    224.4     |   40.02    |
 | Médiane    |     59.5      |      4       |     0      |
 | Quartile 1 |     17.0      |      0       |     0      |
 | Quartile 3 |     219.0     |      23      |     4      |
-| Ecart-type |    462.63     |   889 .63    |   131.6    |
+| Ecart-type |    462.63     |    889.63    |   131.6    |
+
+---
+
+# Principal Component Analysis (PCA)
+
+---
+
+# Regression Linéaire
+
+---
+
+# Conclusion
+
+---
+
+# Références
 
 ---
 
