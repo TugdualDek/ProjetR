@@ -61,12 +61,18 @@ h1 {
 
 # Table des matières
 
-- [Introduction](#introduction)
-- [Analyse préliminaire : statistiques descriptives](#analyse-préliminaire--statistiques-descriptives)
-- [Principal Component Analysis (PCA)](#principal-component-analysis-pca)
-- [Regression Linéaire](#regression-linéaire)
-- [Conclusion](#conclusion)
-- [Références](#références)
+1. [Introduction](#introduction)
+2. [Analyse préliminaire : statistiques descriptives](#analyse-préliminaire--statistiques-descriptives)
+3. [Principal Component Analysis (PCA)](#principal-component-analysis-pca)
+4. [Regression Linéaire](#regression-linéaire)
+5. [Conclusion](#conclusion)
+6. [Références](#références)
+
+<style scoped>
+    ol{
+        list-style: upper-roman;
+    }
+</style>
 
 ---
 
@@ -110,55 +116,3 @@ h1 {
 ---
 
 # Références
-
----
-
-# Words from the Source
-
-> There are darknesses in life and there are lights, and you are one of the lights, the light of all lights.
->
-> -- Bram Stoker, Dracula
-
-<style scoped>
-h1 {
-    padding-bottom: 1.5em;
-}
-</style>
-
----
-
-# Bats - About
-
-- Small
-
-- Fast
-
-- Mammals
-
-- Scientific name: Chiroptera
-
-![bg right](./img/igam-ogam-unsplash.jpg)
-
----
-
-# Bats - Implementation
-
-```python
-class Bat:
-    def __init__(name:str, age:int):
-        self.__name = name
-        self.__age = age
-    @property
-    def name(self):
-        return self.__name
-    @property
-    def age(self):
-        return self.__age
-    @property
-    def speed(self):
-        return 10 - self.age
-```
-
----
-
-test
