@@ -3,20 +3,27 @@ title: datascience project
 version: 1.0.0
 theme: dracula
 footer: Projet DataScience
-header: <img src="https://upload.wikimedia.org/wikipedia/fr/thumb/2/21/Institut_sup%C3%A9rieur_d%27%C3%A9lectronique_de_Paris.svg/1280px-Institut_sup%C3%A9rieur_d%27%C3%A9lectronique_de_Paris.svg.png" style="width:170px;"/>
+header: <img src="https://upload.wikimedia.org/wikipedia/fr/thumb/2/21/Institut_sup%C3%A9rieur_d%27%C3%A9lectronique_de_Paris.svg/1280px-Institut_sup%C3%A9rieur_d%27%C3%A9lectronique_de_Paris.svg.png" style="width:170px; float:right;"/>
 paginate: true
 marp: true
 ---
 
 <style>
+    :root{
+        --bleu : #1b5fa2;
+        --blanc : #e3e3e3;
+        --jaune : #f1fa8c;
+        --orange : #f4a100;
+    }
+
     h1{
-        border-bottom: 1px solid #eea000;
+        border-bottom: 1px solid var(--orange);
         padding-bottom: 15px;
-        color: #1b5fa2;
+        color: var(--bleu);
     }
 
     h2{
-        color: #1b5fa2;
+        color: var(--bleu);
     }
 
     table{
@@ -25,7 +32,7 @@ marp: true
     }
 
     p{
-        color: #e3e3e3;
+        color: var(--blanc);
     }
 </style>
 
@@ -80,6 +87,13 @@ h1 {
 | Quartile 1 |     17.0      |      0       |     0      |
 | Quartile 3 |     219.0     |      23      |     4      |
 | Ecart-type |    462.63     |    889.63    |   131.6    |
+
+<style scoped>
+    table td:nth-child(1){
+        color: var(--jaune);
+        font-weight: bold;
+    }    
+</style>
 
 ---
 
